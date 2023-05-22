@@ -12,6 +12,7 @@ axios.get('https://app.diegotorrero.tech/charts-app/countryPopulation.php')
       arrayDatos.push([elemento['Name'], parseInt(elemento['Population'])]);
     });
     console.log(arrayDatos);
+    console.log('Mensaje');
   })
   .catch(function (error) {
     // handle error
